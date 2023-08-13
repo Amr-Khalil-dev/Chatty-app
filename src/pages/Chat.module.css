@@ -1,0 +1,26 @@
+.card {
+	height: 85vh;
+	width: 85vw;
+	background: #379683bf;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	border-radius: 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+	.card {
+		height: 98vh;
+		width: 98vw;
+		grid-template-columns: 25% 75%;
+	}
+}
+
+@media (max-width: 480px) {
+	.card {
+		height: 98vh;
+		width: 98vw;
+		grid-template-columns: 25% 75%;
+	}
+}

@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container img {
+	height: 320px;
+}
+
+.container span {
+	color: #05386b;
+	text-transform: capitalize;
+}
+
+@media (max-width: 480px) {
+.container {
+
+	font-size: 14px;
+}
+.container img {
+	height: 180px;
+}
+}

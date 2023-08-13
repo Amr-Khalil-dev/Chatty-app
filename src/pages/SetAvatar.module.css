@@ -1,0 +1,59 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 65px;
+	justify-content: center;
+	align-items: center;
+}
+
+.container h1 {
+	color: #05386b;
+}
+
+.avatars {
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.avatars img {
+	height: 120px;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+}
+
+.avatar {
+	border: 0.4rem solid transparent;
+	border-radius: 50%;
+	transition: 0.5s ease-in-out;
+}
+.avatarActive {
+	border: 0.4rem solid #05386b;
+	border-radius: 50%;
+	transition: 0.5s ease-in-out;
+}
+
+.container button {
+	background-color: #05386b;
+	padding: 16px 32px;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 22px;
+}
+
+.container button:disabled {
+	background-color: #c9c9c9;
+
+	cursor: not-allowed;
+}
+.container button:hover {
+	background: #01172d;
+}
+
+.container button:disabled:hover {
+	background-color: #c9c9c9;
+}
